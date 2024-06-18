@@ -14,4 +14,4 @@ RUN wget -O /usr/local/bin/dasel https://github.com/TomWright/dasel/releases/dow
 RUN chmod +x /usr/local/bin/dasel
 
 # Add system packages
-RUN apk add --update nodejs npm curl jq lz4 vim
+RUN apk add --update nodejs npm curl jq lz4 vim zstd
